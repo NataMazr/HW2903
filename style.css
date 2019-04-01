@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+width: 100%;
+    }
+.left {
+display: inline-block;  
+width: 50%;
+}
+.right {
+display: inline-block; 
+width: 50%;
+}
+.one {
+height: 50px;  
+border: 2px solid blue;
+}
+.two {
+height: 50px;
+border: 2px solid blue;
+}
+div:first-child
+ { 
+  height: 100px;
+ }
+ div>.two:last-child
+ {
+ background:plum;
+ }
